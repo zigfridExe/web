@@ -10,7 +10,7 @@ import { FeedbackSuccessStep } from "./Steps/FeedbackSuccessStep";
 
 export const feedbackTypes = {
   BUG: {
-    title: 'Outro',
+    title: 'Bug',
     image: {
       source: bugImageUrl,
       alt: 'Imagem de um inseto'
