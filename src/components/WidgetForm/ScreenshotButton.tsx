@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Loading } from "../Loading";
 
 interface ScreenshotButtonProps {
-  screenshot: string | null; //este undefined não está no projeto original, mas acarreta em um erro que desconheçp
+  screenshot: string | null;
   onScreenshotTook: (screenshot: string | null) => void;
 }
 
